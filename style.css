@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+* {
+  font-family: 'Gowun Dodum', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  background-color: black;
+}
+a {
+  display: block;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background-color: black;
+}
+header .nav_bar1 {
+  display: flex;
+  align-items: center;
+}
+header .nav_bar1 h1 {
+  font-size: 18px;
+  padding: 5px 10px;
+  color: #CD0000;
+}
+header .nav_bar1 ul {
+  display: flex;
+  align-items: center;
+}
+header .nav_bar1 ul a {
+  padding: 10px 5px;
+  margin-right: 5px;
+  color: white;
+}
+header .nav_bar1 ul li {
+
+}
+header .nav_bar2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .nav_bar2 input {
+  width: 150px;
+  height: 30px;
+  padding-left: 10px;
+  border-radius: 3px;
+  border: none;
+  margin-right: 12px;
+}
+header .nav_bar2 button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  border-radius: 3px;
+  padding: 5px;
+  color: white;
+  cursor: pointer;
+}
+header .nav_bar2 .login_btn {
+  width: 50px;
+  border: 1.5px solid white;
+  background-color: black;
+  margin-right: 12px;
+}
+header .nav_bar2 .sign_btn {
+  width: 70px;
+  border: none;
+  background-color: #FF5050;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 350px;
+  background-image: url('https://occ-0-1123-1217.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABeIfo7VL_VDyKnljV66IkR-4XLb6xpZqhpLSo3JUtbivnEW4s60PD27muH1mdaANM_8rGpgbm6L2oDgA_iELHZLZ2IQjG5lvp5d2.jpg?r=e6e.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  padding: 0 50px;
+  margin-bottom: 15px;
+}
+.content h1 {
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+.content p {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.content .move_btn button {
+  color: white;
+  border: 1.5px solid white;
+  background-color: transparent;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.content .sumit_btn{
+  width: 100px;
+  height: 30px;
+  margin-right: 5px;
+}
+.content .info_btn {
+  width: 80px;
+  height: 30px;
+}
+.move_form {
+  margin: 0 auto;
+  width: 500px;
+  height: 340px;
+  border: 2px solid white;
+  border-radius: 3px;
+  padding: 15px;
+  background-color: black;
+  border-radius: 5px;
+  border: 2px solid white;
+  margin-bottom: 15px;
+}
+.move_form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.move_form form input {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+}
+.move_form form input::placeholder {
+  color: white;
+}
+.move_score {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.move_form form label {
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border: 2px solid white;
+  padding: 5px;
+  color: white;
+}
+.move_form form select {
+  width: 423px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  color: #aaaaaa;
+}
+.move_form form button {
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #FF5050;
+  color: white;
+  cursor: pointer;
+}
+.cards1 {
+  margin: 0 auto;
+  width: 1360px;
+  height: 100%;
+}
+.move_cards {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  min-width: 1400px;
+}
+.move_cards .my_card {
+  width: 330px;
+  height: auto;
+  background-color: 	#FDF5E6;
+  border-radius: 5px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  
+}
+.move_cards .my_card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.move_cards .my_card .card_content {
+  padding: 10px;
+}
+.move_cards .my_card .card_content h1 {
+  font-size: 18px;
+}
+.move_cards .my_card .card_content p {
+  font-size: 16px;
+}
